@@ -1,7 +1,9 @@
-function sum(a,b){
-    return a+b;
+var x = "hello";
+
+function calculateSum(a, b) {
+  const sum = a + b;
+
+  console.log(sum);
 }
 
-let a,b;
-let value = sum(6,34);
-console.log(value)
+module.exports = { x, calculateSum };
